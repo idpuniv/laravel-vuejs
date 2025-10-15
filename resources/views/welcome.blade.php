@@ -33,13 +33,12 @@
             </div>
         </div>
     </nav>
-    <h1>Bienvenue sur Laravel 11 avec Vue.js</h1>
+    <h1 class="text-center mt-3">Bienvenue sur Laravel 11 avec Vue.js 3</h1>
     <div id="app">
-        <example-component></example-component>
+        <compteur-component></compteur-component>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.8/js/bootstrap.min.js"
         integrity="sha512-nKXmKvJyiGQy343jatQlzDprflyB5c+tKCzGP3Uq67v+lmzfnZUi/ZT+fc6ITZfSC5HhaBKUIvr/nTLCV+7F+Q=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
-
 </html>

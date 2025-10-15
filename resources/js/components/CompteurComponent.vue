@@ -1,7 +1,7 @@
 <template>
   <div class="text-center mt-5">
-    <h2>Composant Vue sans routeur ✅</h2>
-    <p>Compteur : {{ count }}</p>
+    <p class="bg-dark text-white fw-bold w-25 fs-2 mx-auto p-5">{{ count }}</p>
+    <p class="text-muted mb-5">Compteur</p>
     <button @click="count++" class="btn btn-primary">Incrémenter</button>
   </div>
 </template>

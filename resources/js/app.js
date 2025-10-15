@@ -1,18 +1,12 @@
 import './bootstrap';
 import { createApp } from 'vue';
 
-// Import du composant Vue
-import ExampleComponent from './components/ExampleComponent.vue';
+import CompteurComponent from './components/CompteurComponent.vue';
 import TodoList from './components/TodoList.vue';
 
-// Crée et monte l'application Vue immédiatement
-const app = createApp({
-    // Optionnel : vous pouvez ajouter des données ou méthodes ici
-});
+const app = createApp({});
 
-// Enregistre le composant globalement
-app.component('example-component', ExampleComponent);
-app.component('todo-list', TodoList); // Ajoutez cette ligne
+app.component('compteur-component', CompteurComponent);
+app.component('todo-list', TodoList);
 
-// Monte l'application sur l'élément #app
 app.mount('#app');
